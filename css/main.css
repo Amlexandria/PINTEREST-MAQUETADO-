@@ -1,0 +1,64 @@
+body {
+  box-sizing: border-box;
+  position: absolute;
+}
+
+header {
+height: 22vh;
+background-color: yellow;
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+
+header > * {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #85929E;
+}
+
+header > h1 {
+  width: 5%;
+}
+
+header > form {
+  width: 70%;
+}
+
+input{
+  width: 80%;
+  background-color: #EFEFEF;
+  height: 40px;
+  border: none;
+  position: relative;
+  right: 2vw;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+
+}
+
+header > nav {
+  width: 20%;
+}
+
+.col {
+  float:left;
+  width: 16%;
+  margin: 2% 2%;
+}
+img {
+  width: 100%;
+  border-radius: 5%;
+}
+article div:hover {
+  width: 100%;
+
+}
+
+.pin{
+  margin-bottom: 20%;
+
+}
