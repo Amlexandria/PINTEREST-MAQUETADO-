@@ -4,8 +4,8 @@ body {
 }
 
 header {
-height: 22vh;
-background-color: yellow;
+height: 23vh;
+background-color: white;
 position: fixed;
 top: 0;
 width: 100%;
@@ -13,10 +13,12 @@ width: 100%;
 
 
 header > * {
-  display: inline-block;
+
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
   color: #85929E;
+  float: left;
+  padding-top: 2vh;
 }
 
 header > h1 {
@@ -30,21 +32,92 @@ header > form {
 input{
   width: 80%;
   background-color: #EFEFEF;
+  box-sizing: border-box;
   height: 40px;
-  border: none;
+  border: hidden;
   position: relative;
   right: 2vw;
   font-family: 'Roboto', sans-serif;
   font-size: 12pt;
   font-weight: bold;
-  color: #2C3E50;
+  color: #273746;
   background-image: url(../assets/icons/search-icon.png);
   background-repeat: no-repeat;
   background-position: right 98%center;
+  padding-left: 40px;
+}
+
+select {
+  background-color: #EFEFEF;
+  box-sizing: border-box;
+  border-left: 1px solid #D6DBDF;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  color: #2C3E50;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  height: 40px;
+  padding-left: 10px;
+
+  text-align: center;
+  position: relative;
+  right: 2.5vw;
 }
 
 header > nav {
   width: 20%;
+  position: relative;
+  top: 2vh;
+  display: inline-block;
+  height: 40px;
+}
+
+a {
+  color: #979480;
+  margin-right: 10px;
+  font-size: 14pt;
+  Text-decoration: none;
+}
+.fas fa-user-circle{
+  width: 10px;
+  height: 10px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #D5D8DC;
+  border-bottom: 0;
+  height:0;
+  width: 100%;
+  position: relative;
+  bottom: 40px;
+}
+
+header section div {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 60px;
+  margin: 2px;
+  background-color: #FA8072;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10%;
+  color: white;
+  position: relative;
+  bottom: 10vh;
+}
+
+div.green {
+  background-color: #52BE80;
+}
+div.blue_green {
+  background-color: #45B39D;
+}
+
+div.purple {
+  background-color: #5F7C9A;
 }
 
 .col {
