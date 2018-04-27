@@ -4,7 +4,7 @@ body {
 }
 
 header {
-height: 23vh;
+height: 22.5vh;
 background-color: white;
 position: fixed;
 top: 0;
@@ -23,6 +23,12 @@ header > * {
 
 header > h1 {
   width: 5%;
+  color: #BD081C;
+}
+
+.fa-pinterest {
+  position: relative;
+  bottom: 22px;
 }
 
 header > form {
@@ -72,17 +78,20 @@ header > nav {
   top: 2vh;
   display: inline-block;
   height: 40px;
+  right: 5%;
 }
 
 a {
-  color: #979480;
-  margin-right: 10px;
-  font-size: 14pt;
+  color: #BABABA;
+  margin-right: 30px;
+  font-size: 13pt;
+  font-weight: bold;
   Text-decoration: none;
 }
 .fas fa-user-circle{
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
+  font-size: 20pt;
 }
 
 hr {
@@ -98,15 +107,20 @@ hr {
 header section div {
   box-sizing: border-box;
   display: inline-block;
-  height: 60px;
+  font-size: 11pt;
+  font-weight: bold;
+  height: 55px;
   margin: 2px;
   background-color: #FA8072;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   border-radius: 10%;
   color: white;
   position: relative;
   bottom: 10vh;
+  left:  3vh;
 }
 
 div.green {
@@ -120,21 +134,51 @@ div.purple {
   background-color: #5F7C9A;
 }
 
+main {
+  margin-top: 11%;
+}
+
 .col {
   float:left;
-  width: 16%;
-  margin: 2% 2%;
+  width: 19.5%;
+  margin: .2% .2%;
 }
+
 img {
   width: 100%;
   border-radius: 5%;
 }
-article div:hover {
-  width: 100%;
 
+.titulo {
+  font-family: 'Roboto', sans-serif;
+  color: #5D6D7E;
+  font-weight: bolder;
+  font-size: 11pt;
 }
 
+.pin:hover {
+  background-color: #F3F3F3;
+}
+
+/*.overlay{
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFFFFF;
+}
+
+.overlay img {
+  width: 10px;
+  position: relative;
+  top: 1px;
+}
+
+article div:hover .overlay {
+  opacity: 1;
+}*/
+
 .pin{
-  margin-bottom: 20%;
+  margin-bottom: 9%;
+  padding: 10px;
+  border-radius: 10px;
 
 }
