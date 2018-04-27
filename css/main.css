@@ -37,7 +37,10 @@ input{
   font-family: 'Roboto', sans-serif;
   font-size: 12pt;
   font-weight: bold;
-
+  color: #2C3E50;
+  background-image: url(../assets/icons/search-icon.png);
+  background-repeat: no-repeat;
+  background-position: right 98%center;
 }
 
 header > nav {
